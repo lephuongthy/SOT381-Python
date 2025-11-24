@@ -3,7 +3,7 @@ b=int(input("nhap thang: "))
 c=int(input("nhap nam: "))
 
 def cuoi_ngay(ngay):
-    if ngay<31:
+    if  ngay<31:
         ngay+=1
         print(f"ngay mai la ngay {ngay}/{b}/{c}")
         return ngay
@@ -37,7 +37,7 @@ if 1<=a<=31:
          cuoi_nam(a,b,c)
 
     elif b in [4,6,9,11]:
-        if a<=30:
+        if a<=30 and a!=31:
          cuoi_ngay(a)
         if a==30:
          cuoi_thang(a,b) 
