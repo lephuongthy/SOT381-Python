@@ -1,7 +1,6 @@
-#nhập một danh sách N số nguyên và in ra tổng của phần tử có giá trị chẵn
+#nhập một danh sách N số nguyên và in ra tổng của phần tử ở vị trí chẵn
 n=int(input("nhập giới hạn n của danh sách: "))
 a=[]
-b=[]
 if n<=0:
     print("giới hạn danh sách không hợp lệ")
 else:
@@ -9,8 +8,7 @@ else:
        x=int(input("nhập một số nguyên N vào danh sách: "))
        a.append(x)
 
-for u in a:
-    if u%2==0:
-        b.append(u)
+b=a[::2]
+print(b)
 
-print(f"tổng của phần tử có giá trị chẵn là: {sum(b)}")
+print(f"tổng của phần tử ở vị trí chẵn là: {sum(b)}")
