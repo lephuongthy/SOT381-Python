@@ -1,4 +1,3 @@
-#nhập một danh sách N số nguyên và in ra số lượng phần tử có giá trị chẵn
 n=int(input("nhập giới hạn n của danh sách: "))
 a=[]
 b=[]
@@ -13,4 +12,3 @@ for u in a:
     if u%2==0:
         b.append(u)
 
-print(f"số lượng phần tử có giá trị chẵn là: {len(b)}")
