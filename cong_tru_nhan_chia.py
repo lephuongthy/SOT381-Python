@@ -1,0 +1,6 @@
+a=int(input("nhập số nguyên thứ nhất: "))
+b=int(input("nhập số nguyên thứ hai: "))
+print(f"a+b={a+b}")
+print(f"a-b={a-b}")
+print(f"a*b={a*b}")
+print(f"a/b={a/b}")
