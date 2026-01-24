@@ -2,23 +2,23 @@ def tinh_so_luong_menh_gia(so_tien):
     menh_gia = [500000, 200000, 100000, 50000, 20000,
         10000, 5000, 2000, 1000, 500, 200, 100 ]
     
-    print(f"Phân tách số tiền: {so_tien:,.0f} VNĐ")
+    print(f"phan tach so tien: {so_tien:,.0f} VNĐ")
 
     for mg in menh_gia:
         if so_tien >= mg:
             so_luong = so_tien // mg
             so_tien %= mg
-            print(f"Mệnh giá {mg:,.0f} VNĐ: {so_luong} tờ/đồng.")
+            print(f"menh gia {mg:,.0f} VNĐ: {so_luong} to/dong.")
 
     if so_tien > 0:
-        print(f"Còn dư {so_tien:,.0f} VNĐ không thể phân tách với các mệnh giá đã cho.")
+        print(f"con du {so_tien:,.0f} VNĐ khong the phan tach voi cac menh gia da cho.")
 try:
-    a = int(input("Nhập vào tổng số tiền (VNĐ): "))
+    a = int(input("nhap vao tong so tien (VNĐ): "))
     
     if a < 0:
-        print("Số tiền phải là một số dương.")
+        print("so tien phai la so duong.")
     else:
         tinh_so_luong_menh_gia(a)
 
 except ValueError:
-    print("Lỗi: Vui lòng nhập vào một số nguyên hợp lệ.")
+    print("vui long nhap lai so tien.")

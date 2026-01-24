@@ -9,6 +9,5 @@ else:
        a.append(x)
 
 b=a[::2]
-print(b)
 
 print(f"tổng của phần tử ở vị trí chẵn là: {sum(b)}")

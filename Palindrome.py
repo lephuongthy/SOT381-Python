@@ -1,3 +1,4 @@
+#kiểm tra xem n có phải là số đối xứng không
 n=int(input("nhập một số bất kì: "))
 a=[]
 for i in str(n):

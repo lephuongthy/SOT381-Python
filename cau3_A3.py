@@ -27,4 +27,4 @@ for z in a:
 
 print(f"số lượng và các phần tử là số nguyên tố là: {len(b)}")
 for y in b:
-  print(y,end='')
+  print(y)

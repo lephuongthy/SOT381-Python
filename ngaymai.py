@@ -37,7 +37,7 @@ if 1<=a<=31:
          cuoi_nam(a,b,c)
 
     elif b in [4,6,9,11]:
-        if a<=30 and a!=31:
+        if a<=30:
          cuoi_ngay(a)
         if a==30:
          cuoi_thang(a,b) 
